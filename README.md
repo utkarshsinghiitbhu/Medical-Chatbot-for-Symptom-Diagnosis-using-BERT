@@ -75,29 +75,11 @@ project-folder/
 
 ## **Usage**
 
-### **1. Web Interface**
+### **Web Interface**
 
 - Open the web app in your browser.
 - Enter your symptoms in the text area.
 - Click the **Predict** button to view the prediction.
-
-### **2. API Usage**
-
-You can also interact with the backend API directly by sending a POST request to the `/predict` endpoint.
-
-#### Example Request:
-```bash
-curl -X POST -H "Content-Type: application/json" \
-     -d "{\"symptoms\": \"I feel severe headache and nausea\"}" \
-     http://127.0.0.1:5000/predict
-```
-
-#### Example Response:
-```json
-{
-  "predicted_label": "Headache and Nausea"
-}
-```
 
 ---
 
