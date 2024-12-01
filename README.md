@@ -1,6 +1,4 @@
 
-
-```markdown
 # Medical Symptom Detector
 
 A web-based application built using **Flask**, **PyTorch**, and **Transformers** to detect medical symptoms based on user input. This tool can be used for basic intent detection in medical applications like chatbots.
@@ -137,9 +135,7 @@ curl -X POST -H "Content-Type: application/json" \
 ## **License**
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
 
----
 
 ### **Key Details in README.md**
 1. **Project Overview**: Explains what the project does.
@@ -150,4 +146,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 6. **Screenshots**: Placeholder sections for adding screenshots of the app.
 7. **Contribution Guidelines**: Provides a simple guide for contributors.
 
-Let me know if you need any further customization!
