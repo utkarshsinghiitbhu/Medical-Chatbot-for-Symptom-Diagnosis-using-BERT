@@ -11,7 +11,6 @@ A web-based application built using **Flask**, **PyTorch**, and **Transformers**
 - **Flask API**: Backend developed with Flask for seamless data processing and model inference.
 - **Interactive Web Interface**: Users can enter symptoms via a user-friendly web interface to get predictions.
 - **Responsive Design**: A clean, responsive interface styled with CSS.
-- **JSON API Endpoint**: Allows integration with other tools through the `/predict` endpoint.
 
 ---
 
