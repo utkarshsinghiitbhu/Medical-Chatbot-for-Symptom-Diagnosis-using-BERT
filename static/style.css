@@ -1,0 +1,96 @@
+/* Apply overall body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1e;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Center container */
+.container {
+    background-color: #2c2c34;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px; /* Fixed width for proper alignment */
+}
+
+/* Heading styles */
+.container h1 {
+    font-size: 22px; /* Slightly reduced font size for better fit */
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Textarea input styling */
+textarea {
+    width: 100%; /* Ensures textarea stays inside the container */
+    height: 100px; /* Adjusted height */
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background-color: #3a3a40;
+    color: #ffffff;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+    box-sizing: border-box; /* Prevents padding from affecting the width */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Matches the width of the container */
+    background-color: #6a4ff7;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a37c9;
+}
+
+/* Response container styling */
+#response {
+    margin-top: 15px; /* Adjusted spacing */
+    font-size: 16px; /* Slightly smaller font */
+    font-weight: bold;
+    color: #d1d1d1;
+}
+
+#response span {
+    color: #6a4ff7;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Full width on smaller screens */
+    }
+
+    textarea {
+        height: 90px;
+    }
+
+    button {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    #response {
+        font-size: 14px;
+    }
+}
