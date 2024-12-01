@@ -97,10 +97,8 @@ project-folder/
 ## **Screenshots**
 
 ### **Web Interface**
-![Web Interface](Screenshot 2024-12-01 181910.png)
+![Web Interface](web_interface.png)
 
-### **Prediction Example**
-![Prediction Example](path/to/screenshot2.png)
 
 ---
 
