@@ -117,12 +117,4 @@ project-folder/
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 
-### **Key Details in README.md**
-1. **Project Overview**: Explains what the project does.
-2. **Features**: Highlights key functionalities.
-3. **Setup Instructions**: Step-by-step guide for running the app locally.
-4. **Usage**: Covers both the web interface and API interaction.
-5. **Customization**: Encourages users to modify the frontend or replace the model.
-6. **Screenshots**: Placeholder sections for adding screenshots of the app.
-7. **Contribution Guidelines**: Provides a simple guide for contributors.
 
